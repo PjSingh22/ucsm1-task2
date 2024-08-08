@@ -108,7 +108,7 @@ footer {
 
 
 /* capital page styles */
-.sac-info {
+.city-info {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -117,19 +117,23 @@ footer {
   margin: 0 auto;
 }
 
-.sac-info__history > p {
+.city-info > img {
+  max-width: 40%;
+}
+
+.city-info__history > p {
   font-size: larger;
   word-spacing: 1px;
   line-height: 1.5;
 }
 
-.sac-info__history {
+.city-info__history {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.sac-facts {
+.city-facts {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -140,7 +144,7 @@ footer {
   padding: 10px;
 }
 
-.sac-facts > ul {
+.city-facts > ul {
   display: flex;
   flex-direction: column;
   gap: 10px;
