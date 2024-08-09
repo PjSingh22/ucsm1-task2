@@ -16,15 +16,11 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 1.08vw;
 }
 
 main {
   margin-top: 2%;
-}
-
-main > h1 {
-  text-align: center;
-  margin: 20px 0;
 }
 
 a:hover {
@@ -33,6 +29,8 @@ a:hover {
 
 h1 {
   text-decoration: underline;
+  text-align: center;
+  margin: 20px 0;
 }
 
 h2 {
@@ -44,6 +42,7 @@ ol {
   padding: 20px;
 }
 
+
 footer {
     background-color: #333;
     color: #fff;
@@ -52,6 +51,26 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+  margin: 0 auto;
+  padding: 50px;
+  font-size: 1.08vw;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+form > input,
+form > textarea,
+form > button {
+  padding: 10px;
 }
 
 .nav-links {
@@ -73,11 +92,14 @@ footer {
 }
 
 .info {
+  height: 50%;
   background: url('./images/carmel-beach.webp') no-repeat center center/cover;
   padding: 20px;
+  font-size: 1.08vw;
 }
 
 .info__content {
+  width: 50%;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
 }
@@ -88,6 +110,7 @@ footer {
   align-items: center;
   gap: 10px;
   width: 30%;
+  font-size: 1vw;
 }
 
 .info__capital > a > button {
@@ -106,8 +129,11 @@ footer {
     line-height: 1.5;
 }
 
-
 /* capital page styles */
+#city-content {
+  font-size: 1.08vw;
+
+}
 .city-info {
   display: flex;
   justify-content: center;
@@ -142,6 +168,7 @@ footer {
   width: 50%;
   margin: 0 auto;
   padding: 10px;
+
 }
 
 .city-facts > ul {
@@ -184,4 +211,17 @@ footer {
 
 .sd {
   background: url('./images/sdbg.webp') no-repeat center center/cover;
+}
+
+/* form style */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.08vw;
+}
+
+.form-container > img {
+  width: 25vw;
 }

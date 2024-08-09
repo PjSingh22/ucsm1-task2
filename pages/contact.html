@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../styles.css">
-  <title>Cities</title>
+  <title>Contact Form</title>
 </head>
 <body>
   <nav>
@@ -19,34 +19,19 @@
     </ul>
   </nav>
   <header>
-    <h1 class="title">Cities in California</h1>
+    <h1 class="title">Contact Us</h1>
   </header>
-  <main>
-    <section class="cities">
-      <a href="./la.html">
-        <div class="city la">
-          <h2>Los Angeles</h2>
-        </div>
-      </a>
-
-      <a href="./po.html">
-        <div class="city po">
-          <h2>Palo-Alto</h2>
-        </div>
-      </a>
-
-      <a href="./sf.html">
-        <div class="city sf">
-          <h2>San Francisco</h2>
-        </div>
-      </a>
-
-      <a href="./sd.html">
-        <div class="city sd">
-          <h2>San Diego</h2>
-        </div>
-      </a>
-    </section>
+  <main class="form-container">
+    <form action="#">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <img src="../images/welcome.jpg"  alt="welcome to california"/>
   </main>
   <footer>
     <p>&copy; 2024 California</p>
