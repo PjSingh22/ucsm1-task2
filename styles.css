@@ -63,6 +63,24 @@ form {
   font-size: 1.08vw;
 }
 
+table {
+  width: 50%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 10px;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
 button:hover {
   cursor: pointer;
 }
