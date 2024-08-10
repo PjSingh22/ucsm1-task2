@@ -105,6 +105,10 @@ form > button {
   padding: 5px 10px;
 }
 
+.title {
+  font-size: 2vw;
+}
+
 .home-link > img {
     width: 8%;
 }
@@ -165,7 +169,7 @@ form > button {
   max-width: 40%;
 }
 
-.city-info__history > p {
+.city-info__history > p , .city-info__history > aside > p {
   font-size: larger;
   word-spacing: 1px;
   line-height: 1.5;
@@ -231,6 +235,13 @@ form > button {
   background: url('./images/sdbg.webp') no-repeat center center/cover;
 }
 
+.sources > aside > p {
+  font-size: 1.08vw;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+}
+
 /* form style */
 .form-container {
   display: flex;
@@ -238,8 +249,9 @@ form > button {
   justify-content: center;
   align-items: center;
   font-size: 1.08vw;
+  /* overflow: scroll; */
 }
 
 .form-container > img {
-  width: 25vw;
+  width: 12vw;
 }
